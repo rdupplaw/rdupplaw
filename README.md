@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @rdupplaw
+- 🌱 I'm currently learning Scala
 - 👀 I’m interested in HTML, CSS, JavaScript and Ruby
-- 🌱 I’m currently on the Makers web development bootcamp
+- :man_student: I graduated Makers web development bootcamp July 2021
 
 ## Bookshelf
 
