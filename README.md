@@ -1,4 +1,5 @@
 - 👋 Hi, I’m @rdupplaw
+- 🏢 I'm a software developer at Capgemini
 - 🌱 I'm currently learning Java
 - 👀 I’m interested in HTML, CSS, JavaScript and Ruby
 - :man_student: I graduated from Makers web development bootcamp July 2021
