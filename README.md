@@ -13,8 +13,10 @@
 | Grokking Algorithms An Illustrated Guide For Programmers and Other Curious People | An interesting, illustrated guide to some fundamental algorithms and algorithmic concepts. |
 | Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability | Common-sense guidance for web usability. |
 | Practical Object-Oriented Design: An Agile Primer Using Ruby | Shows how the SOLID principles apply in practice in Ruby, as well as: how to manage dependencies with dependency injection; when to use classical inheritance vs modules vs composition/aggregation; how to implement common interfaces across multiple classes (duck typing); and how to design cost-effective tests. |
-| Real–World Software Development: A Project-Driven Guide to Fundamentals in Java | A highly valuable resource for a recent bootcamp grad and new Java developer (myself). Gives a high-level overview of various principles, patterns and practices that make for good software. The project-based approach, building a semi-realistic application, shows how each topic applies in practice. Although each topic isn't covered in deep detail, there is enough to build a working knowledge and to stimulate further research. Mostly applicable to any object-oriented language, but probably best if you're working in Java. |
-| Secrets of the JavaScript Ninja | _in progress_ |
+| Real–World Software Development: A Project-Driven Guide to Fundamentals in Java | Gives a high-level overview of various principles (e.g. SOLID), patterns (e.g. Builder) and practices (e.g. TDD) that make for good software. The project-based approach, building a semi-realistic application, shows how each topic applies in practice. Although each topic isn't covered in deep detail, there is enough to build a working knowledge and to stimulate further research. |
+| Letters To A New Developer | Many short essays, styled as letters, containing advice for new developers. |
+| Spring Start Here | An excellent introduction to the Spring framework. Covers the core Spring framework and some key projects in the Spring ecosystem. Doesn't just convey technical information; also explains why we do things a certain way, how Spring works behind the scenes, and the benefits and drawbacks of different approaches. |
+| Growing Object-Oriented Software, Guided by Tests | _in progress_ |
 
 <!---
 rdupplaw/rdupplaw is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
