@@ -2,7 +2,7 @@
 - :office: I'm currently working as a software developer at Capgemini.
 - :coffee: I write Java with Spring, deployed on Kubernetes with GitLab CI/CD.
 - :sparkling_heart: I love agile/XP development practices like test-driven development, pairing and mobbing, continuous integration/delivery.
-- :nerd_face: I read a lot and try to apply it to my work (see my [bookshelf](#bookshelf)).
+- :books: I read a lot and try to apply it to my work (see my [bookshelf](#bookshelf)).
 - :man_student: I graduated from Makers web development bootcamp July 2021.
 - :link: [LinkedIn](https://www.linkedin.com/in/robert-dupplaw/), [Twitter](https://twitter.com/robert_dupplaw), [Blog](https://write.as/rdupplaw/).
 
