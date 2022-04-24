@@ -16,7 +16,11 @@ In descending order of date read.
 
 ### Modern Software Engineering
 
-*in progress*
+I think this book is worthy of its title. It sets out to define an engineering approach to software development and I think it succeeds. The book distills a huge number of important concepts in software development in a very cohesive and accessible way, while remaining paradigm-agnostic.
+
+Farley posits that there are two main focuses in software engineering. The first is learning. The second is managing complexity. Learning essentially refers to the iterative, agile approach to building software. Managing complexity is how we retain our ability to change and iterate software without our systems becoming big balls of mud. Iteration, feedback, incrementalism, experimentation and empiricism are linked to our ability to learn; modularity, cohesion, separation of concerns, abstraction and loose coupling are linked to our ability to manage complexity.
+
+Drawing from Accelerate, Farley puts forward stability and throughput as the two basic measures of an effective software engineering team. These measures provide further justification for the tools and techniques that he describes for optimising learning and managing complexity. 
 
 ### Head First Design Patterns
 
