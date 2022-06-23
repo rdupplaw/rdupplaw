@@ -14,6 +14,12 @@ In descending order of date read.
 
 *in progress*
 
+### Building a Career in Software: A Comprehensive Guide to Success in the Software Industry
+
+This is a solid book for beginner software engineers. Covers a lot of important professional skills that I haven't seen in similar books. This book is like having a really good mentor. Lots of very practical advice.
+
+Most of the book relates to non-tech skills, like managing projects, working with others, and writing emails. There's also some coverage of job search skills (writing CVs, interviews) and technical skills (coding, debugging, designing reliable systems). 
+
 ### Modern Software Engineering
 
 I think this book is worthy of its title. It sets out to define an engineering approach to software development and I think it succeeds. The book distills a huge number of important concepts in software development in a very cohesive and accessible way, while remaining paradigm-agnostic.
