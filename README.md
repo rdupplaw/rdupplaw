@@ -12,7 +12,13 @@ In descending order of date read.
 
 ### Clean Architecture
 
-*in progress*
+A really interesting look at how to design software well. The book starts by explaining the point of software architecture/design. Part II explains the implications of programming paradigms (structured, object-oriented, functional) on architecture. Part III explains the SOLID principles, which apply to modules (classes in OOP), and Part IV covers some component principles, which apply to components (groups of modules). Part V justifies the Clean Architecture and describes its ingredients. Part VI explains how databases, the web and frameworks fit into the Clean Architecture (hint: they're details which belong in the outer circle of the Clean Architecture i.e. your domain code should not depend on them). The last part of the book is a brief autobiography of some of Martin's projects from the 1960s to the 1990s which vindicate some of his architectural principles.
+
+The "Clean Architecture" is similar to Ports & Adapters, Hexagonal Architecture and Onion Architecture. I think it's a good architecture for large projects to avoid becoming big balls of mud. Probably overkill for a small project, but still useful to keep in mind as your project grows.
+
+I particularly liked Martin's idea of the "screaming architecture", that "the architecture of a software application [should] scream about the use cases of the application", instead of being about controllers, services, repositories, entities...
+
+I also enjoyed Simon Brown's chapter about actually implementing the Clean Architecture (or something similar to it), and James Grenning's chapter on using the Clean Architecture in embedded software.
 
 ### Building a Career in Software: A Comprehensive Guide to Success in the Software Industry
 
