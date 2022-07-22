@@ -10,6 +10,14 @@
 
 In descending order of date read.
 
+### Clean Code
+
+This book describes the Object Mentor School of Clean Code. Object Mentor was a software consultancy founded by Martin, and the other Object Mentors (Jeff Langr, Tim Ottinger and others) also contributed to this book.
+
+The book can be divided into three main parts. The first part explains what clean code is and why we should strive for it, as well as explaining how it applies to specific subjects like functions, classes, comments and formatting. The second part takes you through a couple of large-scale, step-by-step refactorings of real code, showing how clean code applies in practice. This is probably the most valuable part of the book. The third part is a catalogue of code smells for reference, where each item is basically a short refresher of something covered in the previous two parts.
+
+Clean code can be described in many ways, but essentially it is code that is readable, flexible and maintainable, or in other words, easy to change. I think the rules, code smells and heuristics contained within this book are pretty good at helping us to achieve that. 
+
 ### Clean Architecture
 
 A really interesting look at how to design software well. The book starts by explaining the point of software architecture/design. Part II explains the implications of programming paradigms (structured, object-oriented, functional) on architecture. Part III explains the SOLID principles, which apply to modules (classes in OOP), and Part IV covers some component principles, which apply to components (groups of modules). Part V justifies the Clean Architecture and describes its ingredients. Part VI explains how databases, the web and frameworks fit into the Clean Architecture (hint: they're details which belong in the outer circle of the Clean Architecture i.e. your domain code should not depend on them). The last part of the book is a brief autobiography of some of Martin's projects from the 1960s to the 1990s which vindicate some of his architectural principles.
