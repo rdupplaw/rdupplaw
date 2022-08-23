@@ -10,6 +10,16 @@
 
 In descending order of date read.
 
+### Test-Driven Development: By Example
+
+A brilliant, careful way to design software. I wish I had read this much sooner. I had previously learned TDD at my bootcamp, supplemented with a few online resources, but this book cleared up a lot of issues I had been having. 
+
+For example, up to now I had only ever used the Triangulation style of TDD, where you only generalise code when you have multiple examples (i.e. multiple tests for the same behaviour), but now I know that this is the most conservative strategy. Instead I can use Fake It (then refactor) or Obvious Implementation to quickly get to green when I don't feel the need to be so careful.
+
+Because I had previously only used Triangulation, I also misunderstood the refactoring step slightly. Beck's explanation of this step as removing duplication, including between the code and the tests, cleared things up for me. For example, when you have a test to check a method returns 1 with some input, and you hard code return 1 into the method, there is duplication between the test and the code. You can refactor this to use variables instead of constants in order to remove duplication, with no need to triangulate and add a test for returning 2.
+
+I've also learned that my definition of a "single change" is much bigger than Beck's definition, and I can now take much smaller steps when I need to. 
+
 ### Clean Code
 
 This book describes the Object Mentor School of Clean Code. Object Mentor was a software consultancy founded by Martin, and the other Object Mentors (Jeff Langr, Tim Ottinger and others) also contributed to this book.
