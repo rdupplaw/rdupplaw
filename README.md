@@ -10,6 +10,22 @@
 
 In descending order of date read.
 
+### Refactoring: Improving the Design of Existing Code
+
+This book explains the underlying principles of refactoring and contains a detailed catalogue of the most common and important refactorings, including tutorials for most of them. Fowler does a great job of explaining the importance of refactoring, as well as demonstrating refactorings in practical examples. This is probably my favourite book on programming so far, due to all the nuggets of practical wisdom contained.
+
+Refactoring (verb) is the process of improving the design of software without changing its observable behaviour. This isn't just a cosmetic concern. The practical purpose of refactoring is to make it easier to add or change features by removing duplication and making the code easier to understand. It's absolutely essential in modern software development that we improve the design of our software as our understanding of the problem develops, otherwise it will become harder and harder to add or change features.
+
+Refactoring goes hand-in-hand with adding or changing features. First refactor to make it easy to add the feature, then add the feature. This is often missed in corporate development departments, where refactoring is seen as a separate task.
+
+A solid suite of unit tests is required as a safety net for most refactoring. If one doesn't exist, create it before refactoring.
+
+Refactoring should be carried out as a series of small steps (if you haven't seen someone working like this before, the tiny size of these steps will surprise you). At each step, the software should still work (the tests should pass). If you're refactoring and the software doesn't work for a long period of time, you're not refactoring correctly and you're more likely to make mistakes.
+
+The size of your steps can change depending on your confidence. If the change is obvious, you can take large steps. If you encounter an unexpected test failure, revert to your last known working version (e.g. using git) and try again with smaller steps.
+
+The book also contains a catalogue of code smells (software red flags) with the refactorings which can remedy them.
+
 ### Test-Driven Development: By Example
 
 A brilliant, careful way to design software. I wish I had read this much sooner. I had previously learned TDD at my bootcamp, supplemented with a few online resources, but this book cleared up a lot of issues I had been having. 
