@@ -10,6 +10,20 @@
 
 In descending order of date read.
 
+### Working Effectively with Legacy Code
+
+Working Effectively with Legacy Code provides an effective conceptual framework for thinking about legacy code, alongside a versatile catalogue of concrete techniques. I've applied the concepts and several of the techniques in my day-to-day work on a legacy codebase and they've served me well.
+
+The central line of argument of the book is as follows:
+- Legacy code is code without unit tests
+- To maintain legacy code, we need to write unit tests
+- To unit test legacy code, we need to instantiate it, exercise its methods and sense its effects
+- To instantiate and exercise legacy code, we need to break difficult dependencies on other objects and resources
+
+Seams are the places where we can break dependencies. By identifying places where we can introduce seams (such as object seams provided by polymorphism and dependency injection) we can break difficult dependencies, allowing us to instantiate and test objects more easily.
+
+This book doesn't tell you how to take poorly-written code and transform it into clear, maintainable, idiomatic software. In fact, many of the techniques result in worse code in terms of readability. This book is about taking the first, tiny step towards better code by making it testable. After that, it's up to you to improve the design, with your new tests as guard rails. For that, I would recommend Martin Fowler's Refactoring.
+
 ### Refactoring: Improving the Design of Existing Code
 
 This book explains the underlying principles of refactoring and contains a detailed catalogue of the most common and important refactorings, including tutorials for most of them. Fowler does a great job of explaining the importance of refactoring, as well as demonstrating refactorings in practical examples. This is probably my favourite book on programming so far, due to all the nuggets of practical wisdom contained.
