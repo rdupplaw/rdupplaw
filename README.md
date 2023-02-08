@@ -10,6 +10,16 @@
 
 In descending order of date read.
 
+### Learning SQL: Master SQL Fundamentals
+
+Well-structured overview of SQL and relational databases. I had limited practical experience with SQL before reading, so this book introduced me to some useful features, like set operations, views, and window functions. It also clarified some of the features I didn't properly understand, like indexes, the different join types, and concurrency control (transactions, isolation levels, read phenomena, locking and versioning).
+
+The book uses MySQL for most examples while also mentioning Oracle and MS SQL differences, but almost completely ignores PostgreSQL. Luckily, PostgreSQL has great documentation, so I never ran into any trouble adjusting the examples and exercises (which I was running against a PostgreSQL docker container with the sakila data preloaded). In particular, the whole of chapter 7 is about various built-in functions related to strings, numbers, and dates, so it's not very useful if you're not using one of the three covered RDBMSs.
+
+The exercises at the end of each chapter are fairly good at reviewing the concepts learned.
+
+In hindsight, although this book is good, I'd recommend just reading through the excellent PostgreSQL documentation instead, which has both greater breadth and depth than this book.
+
 ### Working Effectively with Legacy Code
 
 Working Effectively with Legacy Code provides an effective conceptual framework for thinking about legacy code, alongside a versatile catalogue of concrete techniques. I've applied the concepts and several of the techniques in my day-to-day work on a legacy codebase and they've served me well.
