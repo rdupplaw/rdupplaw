@@ -10,7 +10,11 @@
 
 In descending order of date read.
 
-### Learning SQL: Master SQL Fundamentals
+### Core Java, Volume I: Fundamentals, 12th Edition
+
+Good overview of the fundamentals of the Java language and standard library. Gets dull at times, but overall not too bad for a Java textbook. It's good that the author explains why things have been designed in a certain way, what problems each thing solves, where each of the available options would be suitable, and any pitfalls. The copious example programs also help to see how things are meant to be used.
+
+### Learning SQL, 3rd Edition
 
 Well-structured overview of SQL and relational databases. I had limited practical experience with SQL before reading, so this book introduced me to some useful features, like set operations, views, and window functions. It also clarified some of the features I didn't properly understand, like indexes, the different join types, and concurrency control (transactions, isolation levels, read phenomena, locking and versioning).
 
@@ -34,7 +38,7 @@ Seams are the places where we can break dependencies. By identifying places wher
 
 This book doesn't tell you how to take poorly-written code and transform it into clear, maintainable, idiomatic software. In fact, many of the techniques result in worse code in terms of readability. This book is about taking the first, tiny step towards better code by making it testable. After that, it's up to you to improve the design, with your new tests as guard rails. For that, I would recommend Martin Fowler's Refactoring.
 
-### Refactoring: Improving the Design of Existing Code
+### Refactoring: Improving the Design of Existing Code, 2nd Edition
 
 This book explains the underlying principles of refactoring and contains a detailed catalogue of the most common and important refactorings, including tutorials for most of them. Fowler does a great job of explaining the importance of refactoring, as well as demonstrating refactorings in practical examples. This is probably my favourite book on programming so far, due to all the nuggets of practical wisdom contained.
 
