@@ -12,7 +12,7 @@ In descending order of date read.
 
 ### Core Java, Volume I: Fundamentals, 12th Edition
 
-Good overview of the fundamentals of the Java language and standard library. Gets dull at times, but overall not too bad for a Java textbook. It's good that the author explains why things have been designed in a certain way, what problems each thing solves, where each of the available options would be suitable, and any pitfalls. The copious example programs also help to see how things are meant to be used.
+Extensive and meticulous coverage of the fundamentals of the Java language and standard library. Dull at times, but overall not bad for a Java textbook. It's good that the author explains why things have been designed in a certain way, what problems each thing solves, where each of the available options would be suitable, and any pitfalls. The copious example programs also demonstrate how each feature is meant to be used.
 
 ### Learning SQL, 3rd Edition
 
