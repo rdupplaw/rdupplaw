@@ -10,6 +10,10 @@
 
 In descending order of date read.
 
+### Core Java, Volume II: Advanced Features, 12th Edition
+
+More of the same from the first volume, but about more specialised topics like XML parsing, annotation processing, networking, security, and database programming.
+
 ### Core Java, Volume I: Fundamentals, 12th Edition
 
 Extensive and meticulous coverage of the fundamentals of the Java language and standard library. Dull at times, but overall not bad for a Java textbook. It's good that the author explains why things have been designed in a certain way, what problems each thing solves, where each of the available options would be suitable, and any pitfalls. The copious example programs also demonstrate how each feature is meant to be used.
