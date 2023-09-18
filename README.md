@@ -10,6 +10,16 @@
 
 In descending order of date read.
 
+### Understanding Distributed Systems
+
+The best way to describe this book is "practical theory". It doesn't exhaustively cover the theory of distributed systems (which would be impossible in one book). Instead, it covers a wide range of concepts at the level required to build the kind of distributed systems that most developers would build in practice. Personally, it has helped me design a (relatively simple) distributed system at work.
+
+The first part of the book gives an overview of networking concepts, highlighting the leaks in the lower level abstractions that we need to be aware of when building on them. For example, when covering TCP, it focusses on the connection lifecycle, flow control, and congestion control, which can be important when building systems that communicate using this protocol.
+
+The second part of the book builds on these basic technical concepts, explaining how we can achieve some level of coordination despite unreliable networks and applications. Raft leader election and state machine replication are particularly interesting. The CAP and PACELC theorems are useful ways of thinking about trade-offs in distributed systems. On the other hand, the CALM theorem states that a monotonic system doesn't require any of this complicated coordination.
+
+The third and fourth parts of the book explain various tactics to achieve scalability and resilience in distributed applications, while the fifth and final part of the book briefly touches on how to develop and operate a distributed system: testing, continuous delivery, and monitoring.
+
 ### xUnit Test Patterns: Refactoring Test Code
 
 This is a huge, comprehensive book, containing every testing pattern I knew of and many more.
