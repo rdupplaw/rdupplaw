@@ -10,7 +10,21 @@
 
 In descending order of date read.
 
-### Understanding Distributed Systems
+### Amazon Web Services in Action, Third Edition
+
+A useful book to acquaint yourself with the most important AWS services and how they can fit together.
+
+The first part of the book is an introduction to the cloud and a quick overview of various AWS services, followed by a brief example of deploying WordPress on AWS.
+
+In parts two and three, each chapter covers a service, or a small group of related services. The coverage of each service is good enough to give you an idea of what kind of problems that service is suitable for.
+
+The fourth part (the last ~150 pages of the book) was the most valuable for me, as it covered some services and architectural concepts for designing and delivering good systems on AWS. 
+
+Chapter 16 was especially good, as they walked through designing a fault-tolerant application, including auto-scaling EC2 groups connected by an SQS queue, and using S3 and DynamoDB. The conceptual explanation of an idempotent finite state machine, as a way to model resilient architecture, was interesting. Chapter 17 added to this by showing how to scale the number of EC2 instances up and down based on CloudWatch metrics.
+
+The tutorials confused me at first, because there's not really anything to follow along with. Most of them just give you a CloudFormation template to deploy, then explain what it does. Which is fine, because the CloudFormation templates are more useful and easier to understand, at least for me, than a tutorial of clicking around the AWS console.
+
+### Understanding Distributed Systems, 2nd Edition
 
 The best way to describe this book is "practical theory". It doesn't exhaustively cover the theory of distributed systems (which would be impossible in one book). Instead, it covers a wide range of concepts at the level required to build the kind of distributed systems that most developers would build in practice. Personally, it has helped me design a (relatively simple) distributed system at work.
 
