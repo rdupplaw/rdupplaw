@@ -10,6 +10,12 @@
 
 In descending order of date read.
 
+### Effective Java (2nd reading)
+
+Good book, and I appreciated the advice more now that I have more experience with Java. Generally, the advice is about writing good APIs for reusable libraries, which is expected given the author's experience, but most of it could also be applied to standalone applications, where good APIs can make the software easier to understand, maintain, and test.
+
+However, this book almost killed our book club at work, as it's very dense and dry.
+
 ### Amazon Web Services in Action, Third Edition
 
 A useful book to acquaint yourself with the most important AWS services and how they can fit together.
