@@ -10,6 +10,36 @@
 
 In descending order of date read.
 
+### Terraform: Up and Running, 3rd Edition
+
+This book is my first proper step into Infrastructure as Code (IaC) and Terraform, and I would highly recommend it as an introduction to both subjects. It has quickly taken me from being bewildered by the existing Terraform code written by my colleagues, to writing my own production-grade Terraform.
+
+The book is written in a tutorial style, where you build a Terraform project to create infrastructure on AWS. It starts simple, but the complexity gradually ramps up as new infrastructure is added and new concepts are introduced to solve realistic problems.
+
+The book uses AWS for almost all the examples, and uses Go during the chapter on testing. I had some experience with AWS and no experience with Go before reading this, but I had no trouble following along.
+
+Chapter 1 covers the general concepts of DevOps and IaC, situating Terraform in the broader IaC landscape (as a provisioning tool vs., for example, Ansible, a configuration management tool).
+
+Chapter 2 introduces the basic concepts of Terraform (providers, resources, data sources, input variables, output variables), with some relatively simple infrastructure deployed to AWS.
+
+Chapter 3 explains how Terraform keeps track of your infrastructure using state, and how you can store it remotely in S3. State is a pretty important concept in Terraform so it's worthy of its own chapter.
+
+Chapter 4 shows how to create reusable Terraform modules, which reduce the need for duplication across environments and projects (analogous to reusable libraries in general purpose programming languages). These modules can either be reused locally in one project or sourced from a Git repo URL.
+
+Chapter 5 covers some more advanced Terraform features, like loops and conditionals, some general gotchas, and a way to configure zero-downtime deployments with EC2 autoscaling groups.
+
+Chapter 6 demonstrates the different ways of handling various kinds of secrets with Terraform. For example, you can store a secret in AWS Secrets Manager and retrieve it with a Terraform data source. One important thing to note is that any secret passed into Terraform resources or data sources will be stored in plaintext in the state file, which is why it's so important to have a state backend with encryption and access control.
+
+Chapter 7 dives deeper into providers (the plugins that allow Terraform to work with external services like AWS). This chapter shows how to use multiple providers in order to work with multiple AWS regions and accounts, or multiple different services (in this case, the AWS and Kubernetes providers are used together).
+
+Chapter 8 takes a step back and discusses how to make Terraform ready for production. A production-ready checklist is provided, which covers everything you might need to think about before your application is ready for production. The bulk of the chapter is about the characteristics of good reusable modules: small, composable, testable, and versioned.
+
+Chapter 9 is about testing. The essence of testing Terraform is: apply, validate, destroy. In the example, we deploy a load balancer, make a request and check that we get the expected response, then destroy the infrastructure. A Go library called Terratest is used to do all this. The author tries to make a distinction between unit, integration and end-to-end tests, but these are all integration tests as they all test how your code works with an external service (AWS). The only difference is how many Terraform modules you are deploying. Some other testing methods, like static analysis, are also mentioned.
+
+Chapter 10 gives some pointers on how to convince your team/company to adopt Terraform and how it can fit into your continuous delivery workflow. This is the first time Terragrunt is used, to show how it can reduce duplication of Terraform code between environments (the author is a co-founder of Gruntwork, the company which develops Terragrunt. It's probably also worth mentioning that Gruntwork appears to be a major supporter of OpenTofu, the open source fork of Terraform which came about due to the recent Terraform licence change, but this all happened after the book was published).
+
+The appendix also has some great recommended resources for further learning.
+
 ### Effective Java (2nd reading)
 
 Good book, and I appreciated the advice more now that I have more experience with Java. Generally, the advice is about writing good APIs for reusable libraries, which is expected given the author's experience, but most of it could also be applied to standalone applications, where good APIs can make the software easier to understand, maintain, and test.
