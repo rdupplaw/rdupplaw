@@ -10,6 +10,16 @@
 
 In descending order of date read.
 
+### Design Patterns: Elements of Reusable Object-Oriented Software
+
+It's impossible to come into reading this book without being influenced by its reputation. Many believe that these patterns are essential knowledge for every software developer. Others argue that these patterns are, at best, low-quality substitutes for missing language features. I think this book is overrated by the former, and unfairly maligned by by the latter.
+
+There seems to be a pervasive idea that these are _the_ patterns of object-oriented design. This can't be blamed on the book itself, as they write in the conclusion that "this book is only a start" and "contains some of the most common design patterns". In other words, these are just some common solutions that some experienced object-oriented designers came up with by applying the basic principles of object-oriented design. It must be more important to understand those principles than to memorise these specific patterns, and any sufficiently skilled programmer could come up with these, or better ones.
+
+Many of these patterns can be better expressed by newer language features, and I'm sure that as new languages and features are released, more design patterns will become obsolete, and new design patterns will be needed. This is because design patterns, in general, are just ways of designing software. That is a pretty broad definition, but it's the only one that makes sense to me. Software will always require design, and we will always need to share effective ways of designing software. Design patterns are a useful way of doing this, and this book is a great example.
+
+There is still value in these patterns, especially if you are using a language like Java. But the real value of this book is seeing a process of object-oriented design: starting with the required and desirable features of the design, applying the primitives of object-oriented design to achieve them, and also considering the applicability and consequences of this design. These patterns therefore provide rich, concrete examples of applying object-oriented principles, and I think it is only possible to assimilate principles if you can see concrete examples.
+
 ### Terraform: Up and Running, 3rd Edition
 
 This book is my first proper step into Infrastructure as Code (IaC) and Terraform, and I would highly recommend it as an introduction to both subjects. It has quickly taken me from being bewildered by the existing Terraform code written by my colleagues, to writing my own production-grade Terraform.
