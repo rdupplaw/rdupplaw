@@ -102,6 +102,26 @@ More of the same from the first volume, but about more specialised topics like X
 
 Extensive and meticulous coverage of the fundamentals of the Java language and standard library. Dull at times, but overall not bad for a Java textbook. It's good that the author explains why things have been designed in a certain way, what problems each thing solves, where each of the available options would be suitable, and any pitfalls. The copious example programs also demonstrate how each feature is meant to be used.
 
+### Essential Scrum: A Practical Guide to the Most Popular Agile Process
+
+Note: I gave up around 100 pages in because I got bored. I wasn't a fan of scrum going into this, and the book didn't change my mind. From what I read, and from skimming the table of contents, this seems like a comprehensive and well-organised explanation of scrum and its components. The book itself is good, so I can't mark it down too much because I don't like scrum.
+
+However, this book reinforced my belief that scrum is designed to appeal to corporate execs and managers more than software engineers. Scrum is an attempt to compromise between agile and traditional command & control management. There seems to be an undertone of contempt for developers, and a desire to hold them accountable (i.e. to punish them when things don't go to plan).
+
+There are a few key things that I find questionable about scrum. One is the notion that commitment (that is, committing to delivering a certain set of features in the next sprint) builds trust between the developers and the product owner. The problem with this idea is that both the product owner and the developers know that estimates are very unreliable, even for the next week or two. Therefore, by committing to their estimates, the developers are saying to the product owner either "we think you are stupid enough to believe our estimates" or "we are going to pad this work out to fill the whole sprint" or "we are going to skimp on quality to get all this work done". None of these options builds trust.
+
+Either way, nothing happens if the developers don't meet their commitment, so the only point seems to be to put psychological pressure on them. This problem doesn't go away by using story points either, because story points are still used to decide what work will be done in a sprint. I think that if estimates really are necessary for the business, the best we can do is rough estimates with rough confidence levels (e.g. something like "50% sure it will be done within a week; 80% sure it will be done within 2 weeks").
+
+Although ostensibly a selling point, scrum's broad applicability and corresponding lack of information about software engineering practices is its greatest weakness for me. The practices of scrum are pretty much useless if you're software is a slow, unworkable big ball of mud. And if your software is well-designed, easy to deploy and a pleasure to work with, you can do a lot better than scrum.
+
+Extreme Programming, on the other hand, takes software engineering more seriously in recommending pair programming and test-driven development. Taking it even further, continuous delivery just seems to make scrum obsolete. Why have week long sprints, with big planning, review, and retrospective meetings, when you can just develop and deploy a feature in a few hours, get feedback as required, and iterate?
+
+The framework also puts all the responsibility for process improvement on the scrum team. But in the teams I've worked in, the major bottlenecks of the software development process are outside of the responsibility of any individual team. So scrum seems to put responsibility for improvement on those with no authority to put in place whole-process improvements. Scrum of scrums and release trains don't seem to be satisfactory solutions to this.
+
+Most of the practices described in this book are more or less justified, and I can see why they would be useful in some specific contexts, but I think it would be a miscalculation to apply the scrum framework to any context. You can't become agile with an off-the-shelf framework.
+
+The most useful part of this book to me is chapter 3, which is a very good explanation and justification of agile against waterfall, which fortunately doesn't mention scrum very much.
+
 ### Learning SQL, 3rd Edition
 
 Well-structured overview of SQL and relational databases. I had limited practical experience with SQL before reading, so this book introduced me to some useful features, like set operations, views, and window functions. It also clarified some of the features I didn't properly understand, like indexes, the different join types, and concurrency control (transactions, isolation levels, read phenomena, locking and versioning).
